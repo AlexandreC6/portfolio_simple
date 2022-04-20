@@ -14,3 +14,8 @@
   color: white;
   padding-bottom: 8px;
 }
+
+.logo ion-icon:hover {
+  transition: 0.3s;
+  transform: scale(0.8);
+}

@@ -41,7 +41,6 @@
   justify-content: center;
 }
 
-
 .title h3::before, h3::after {
   content: "";
   position: absolute;
@@ -59,25 +58,3 @@
 .title h3::after {
   left: 31%;
 }
-
-/* .title h3::before {
-  content: '';
-  display: block;
-  width: 32px;
-  height: 2px;
-  background-color: #fff;
-  position: absolute;
-  top: 50%;
-  right: -48px;
-}
-
-.title h3::after {
-  content: '';
-  display: block;
-  width: 32px;
-  height: 2px;
-  background-color: #fff;
-  position: absolute;
-  top: 50%;
-  right: -48px;
-} */
