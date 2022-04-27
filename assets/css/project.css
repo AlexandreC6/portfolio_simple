@@ -1,0 +1,18 @@
+@import "../css/aboutme.css";
+
+.projects {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid red;
+}
+
+.title-big {
+  position: absolute;
+  font-size: 9.236vw;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--big-text);
+  margin-top: 8.333vw;
+  margin-left: 3.333vw;
+  z-index: -1;
+}
