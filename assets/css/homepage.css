@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+.img-background {
+  width: 100%;
+  height: 100vh;
+  background: url('/assets/images/picture-background.jpeg') no-repeat ;
+  background-size: cover;
+  background-position: left;
+}
+
+/* Alexandre Camilo and Frontend developer */
+
+.title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title h1 {
+  font-size: 6.5vw;
+  font-weight: 700;
+}
+
+.title h3 {
+  color: white;
+  font-size: 2.7083333333333vw;
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title h3::before, h3::after {
+  content: "";
+  position: absolute;
+  margin: auto;
+  height: 2px;
+  background: #fff;
+  width: 3vw;
+  top: 50%;
+}
+
+.title h3::before {
+  right: 31%;
+}
+
+.title h3::after {
+  left: 31%;
+}

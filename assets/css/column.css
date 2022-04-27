@@ -1,0 +1,16 @@
+.column {
+  /* background: green; */
+}
+
+.column p {
+  /* background: yellow; */
+  /* border: 1px solid blue; */
+  text-transform: uppercase;
+  font-size: 2.431vw; /* convertir */
+  font-weight: lighter;
+  writing-mode: vertical-lr;
+  padding-left: 6.042vw; /* convertir */
+  padding-top: 4.792vw; /* convertir */
+  text-decoration: underline var(--blue-principal);
+
+}
