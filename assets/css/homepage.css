@@ -4,6 +4,8 @@
   box-sizing: border-box;
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
+  /* Bloquer le scroll */
+  overflow: hidden;
 }
 
 .img-background {
